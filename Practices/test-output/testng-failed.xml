@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="password" value="crmsfa"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="http://leaftaps.com/"/>
+  <parameter name="username" value="DemoSalesManager"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="learnings.Practice_12">
+        <methods>
+          <include name="login"/>
+          <include name="quitBrowser"/>
+          <include name="createLead"/>
+        </methods>
+      </class> <!-- learnings.Practice_12 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
